@@ -4,14 +4,14 @@
 #snakeField {
     display: flex;
     flex-wrap: wrap;
-    width: 500px;
+    width: 90vmin;
     margin: auto;
 }
 
 .item {
     background-color: lightblue;
     border: 2px solid blue;
-    height: 50px;
+    height: 9vmin;
     width: 10%;
     border-radius: 5px;
 }
