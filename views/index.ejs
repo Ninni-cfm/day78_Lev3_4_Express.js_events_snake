@@ -14,7 +14,8 @@
     <div id="snakeField">
         <% for( let i = 0; i < 10; i++ ) { %>
         <% for( let j = 0; j < 10; j++ ) { %>
-        <div class="item" onmouseover="onMouseOver(this)"></div>
+        <!-- <div class="item" onmouseover="onMouseOver(this)"></div> -->
+        <div class="item" onmouseenter="onMouseEnter(this)" onmouseleave="onMouseLeave(this)"></div>
 
         <% } %>
         <% } %>
